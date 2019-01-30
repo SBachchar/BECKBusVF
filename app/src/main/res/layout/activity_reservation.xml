@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ReservationActivity">
+
+    <TextView
+        android:id="@+id/Nbr_bus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="50dp"
+        android:text="Nombre de bus (Max. 3) ===>"
+        android:padding="10dp"
+        android:textSize="17sp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:visibility="invisible"/>
+
+    <android.support.v7.widget.AppCompatSpinner
+        android:id="@+id/NbrBus_spinner"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_toEndOf="@id/Nbr_bus"
+        android:layout_marginTop="50dp"
+        android:padding="10dp"
+        android:entries="@array/NbrBus"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:id="@+id/prix_bus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:layout_centerInParent="true"
+        android:text="350Dhs"
+        android:padding="5dp"
+        android:layout_below="@id/Nbr_bus"
+        android:textSize="20sp"
+        android:textColor="#C32003"
+        android:textStyle="bold"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Date"
+        android:layout_below="@+id/prix_bus"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:visibility="invisible"/>
+
+    <EditText
+        android:id="@+id/date_choose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/date"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:hint="ex: 11 Novembre 2018"
+        android:textAlignment="center"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:id="@+id/de"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_toStartOf="@+id/res_dep"
+        android:text="De"
+        android:layout_below="@+id/date_choose"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:visibility="invisible"/>
+
+    <EditText
+        android:id="@+id/res_dep"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/date_choose"
+        android:hint="Départ"
+        android:textAlignment="center"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:id="@+id/vers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_toStartOf="@+id/res_dest"
+        android:text="vers"
+        android:layout_below="@+id/de"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:visibility="invisible"/>
+
+    <EditText
+        android:id="@+id/res_dest"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/res_dep"
+        android:hint="Destination"
+        android:textAlignment="center"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/reserve_btn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:layout_below="@id/res_dest"
+        android:background="#0955A8"
+        android:text="Réserver"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:visibility="invisible"/>
+
+    <LinearLayout
+        android:id="@+id/linear_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:visibility="visible">
+        <Button
+            android:id="@+id/reservations"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:background="#0955A8"
+            android:layout_marginBottom="50dp"
+            android:padding="10dp"
+            android:text="Mes réservations"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textSize="25sp"
+            android:textStyle="bold"/>
+        <Button
+            android:id="@+id/rsrv_bus_btn"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:background="#0955A8"
+            android:padding="10dp"
+            android:text="Réservation de Bus"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+    <ListView
+        android:id="@+id/lvReservation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:dividerHeight="1dp"
+        android:paddingBottom="10dp"
+        android:text=""
+        android:transcriptMode="alwaysScroll"
+        android:visibility="invisible"
+        />
+
+</RelativeLayout>

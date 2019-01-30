@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChauffeurActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/profil"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:background="#0955A8"
+                android:layout_marginTop="80dp"
+                android:layout_marginBottom="20dp"
+                android:layout_centerHorizontal="true"
+                android:padding="10dp"
+                android:text="Mon profil"
+                android:textAllCaps="false"
+                android:textColor="#fff"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                />
+
+            <Button
+                android:id="@+id/controle"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:background="#0955A8"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_centerHorizontal="true"
+                android:padding="10dp"
+                android:layout_below="@id/profil"
+                android:text="Contrôler les abonnements"
+                android:textAllCaps="false"
+                android:textColor="#fff"
+                android:textSize="25sp"
+                android:textStyle="bold"/>
+            <Button
+                android:id="@+id/pannes"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:background="#0955A8"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/controle"
+                android:padding="10dp"
+                android:text="Déclaration de pannes"
+                android:textAllCaps="false"
+                android:textColor="#fff"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                />
+            <Button
+                android:id="@+id/deconnexion"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:background="#0955A8"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/pannes"
+                android:padding="10dp"
+                android:text="Déconnexion"
+                android:textAllCaps="false"
+                android:textColor="#fff"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/id_bus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ID de Bus: "
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:textSize="20sp"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:padding="6dp"
+                android:visibility="invisible"/>
+            <EditText
+                android:id="@+id/id_bus_edit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="ex: AB25"
+                android:layout_toEndOf="@+id/id_bus"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="20dp"
+                android:textSize="20sp"
+                android:textColor="#000"
+                android:padding="6dp"
+                android:visibility="invisible"/>
+
+            <TextView
+                android:id="@+id/description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/id_bus"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:text="Description de panne : "
+                android:textSize="20sp"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:padding="6dp"
+                android:visibility="invisible"
+                />
+            <EditText
+                android:id="@+id/description_edit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Décrire la panne et les circonstances dans lesquelles elle est survenue..."
+                android:layout_marginBottom="15dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/description"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:padding="10dp"
+                android:visibility="invisible"/>
+
+            <TextView
+                android:id="@+id/nbre_passagers"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/description_edit"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:text="Nombre de passagers: "
+                android:textSize="20sp"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:padding="6dp"
+                android:visibility="invisible"/>
+
+            <EditText
+                android:id="@+id/nbre_passagers_edit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Nombre de passagers"
+                android:layout_marginBottom="15dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/nbre_passagers"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:padding="10dp"
+                android:visibility="invisible"/>
+            <TextView
+                android:id="@+id/localisation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_below="@+id/nbre_passagers_edit"
+                android:text="Localisation de bus: "
+                android:textSize="20sp"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:padding="6dp"
+                android:visibility="invisible"/>
+            <EditText
+                android:id="@+id/localisation_edit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Où êtes-vous ? "
+                android:layout_marginBottom="15dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/localisation"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:padding="10dp"
+                android:visibility="invisible"/>
+            <Button
+                android:id="@+id/envoyer"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:background="#0955A8"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/localisation_edit"
+                android:padding="8dp"
+                android:text="Envoyer"
+                android:textAllCaps="false"
+                android:textColor="#fff"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:visibility="invisible"
+                />
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

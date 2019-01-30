@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "403331327621",
+    "firebase_url": "https://beckbus-898e4.firebaseio.com",
+    "project_id": "beckbus-898e4",
+    "storage_bucket": "beckbus-898e4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:403331327621:android:ee7223ec66528082",
+        "android_client_info": {
+          "package_name": "com.example.android.beckbus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "403331327621-57aebg1o7h6qsjg812au2091qbm01k7u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.beckbus",
+            "certificate_hash": "04253b94c75af9fc510eaf3dc132642d60bee57b"
+          }
+        },
+        {
+          "client_id": "403331327621-h4l32s9357hqbkn62dra94ikuf4hmlnj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBplk0ZEYLhe6nK1yaXsLj6GSlcrUrCas4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "403331327621-h4l32s9357hqbkn62dra94ikuf4hmlnj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

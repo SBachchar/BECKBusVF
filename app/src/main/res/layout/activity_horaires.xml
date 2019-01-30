@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".HorairesActivity">
+
+
+    <TextView
+        android:id="@+id/ligne_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Choisir une ligne"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:padding="6dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#000"
+        />
+
+    <android.support.v7.widget.AppCompatSpinner
+        android:id="@+id/ligne_spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:padding="10dp"
+        android:layout_below="@+id/ligne_view"
+        android:entries="@array/station"/>
+
+    <TextView
+        android:id="@+id/lundi_vendredi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Du Lundi au Vendredi:"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:padding="6dp"
+        android:layout_below="@+id/ligne_spinner"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="#000"
+        />
+
+    <TextView
+        android:id="@+id/premier_bus1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="* Premier bus :"
+        android:textSize="17sp"
+        android:textAlignment="center"
+        android:padding="6dp"
+        android:layout_below="@+id/lundi_vendredi"
+        android:layout_marginLeft="40dp"
+        android:textColor="#000"
+        />
+    <TextView
+        android:id="@+id/premier_temps1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="7:45"
+        android:textSize="17sp"
+        android:layout_toEndOf="@id/premier_bus1"
+        android:textAlignment="center"
+        android:padding="6dp"
+        android:layout_below="@+id/lundi_vendredi"
+        android:layout_marginLeft="40dp"
+        android:textColor="#000"
+        />
+    <TextView
+        android:id="@+id/dernier_bus1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="* Dernier bus :"
+        android:textSize="17sp"
+        android:textAlignment="center"
+        android:padding="6dp"
+        android:layout_below="@+id/premier_bus1"
+        android:layout_marginLeft="40dp"
+        android:textColor="#000"
+        />
+    <TextView
+        android:id="@+id/dernier_temps1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="20:00"
+        android:textSize="17sp"
+        android:layout_toEndOf="@id/dernier_bus1"
+        android:textAlignment="center"
+        android:padding="6dp"
+        android:layout_below="@+id/premier_bus1"
+        android:layout_marginLeft="40dp"
+        android:textColor="#000"
+        />
+
+    <TextView
+        android:id="@+id/frequence1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="* Fréquence :"
+        android:textSize="17sp"
+        android:textAlignment="center"
+        android:padding="6dp"
+        android:layout_below="@+id/dernier_bus1"
+        android:layout_marginLeft="40dp"
+        android:textColor="#000"
+        />
+    <TextView
+        android:id="@+id/frequence_temps1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="45 min"
+        android:textSize="17sp"
+        android:layout_toEndOf="@id/dernier_bus1"
+        android:textAlignment="center"
+        android:padding="6dp"
+        android:layout_below="@+id/dernier_temps1"
+        android:layout_marginLeft="40dp"
+        android:textColor="#000"
+        />
+
+    <TextView
+        android:id="@+id/samedi_dimanche"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Samedi et Dimanche:"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:padding="6dp"
+        android:layout_below="@+id/frequence1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:textColor="#000"
+        />
+
+    <TextView
+        android:id="@+id/premier_bus2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="* Premier bus :"
+        android:textSize="17sp"
+        android:textAlignment="center"
+        android:padding="6dp"
+        android:layout_below="@+id/samedi_dimanche"
+        android:layout_marginLeft="40dp"
+        android:textColor="#000"
+        />
+    <TextView
+        android:id="@+id/premier_temps2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="7:45"
+        android:textSize="17sp"
+        android:layout_toEndOf="@id/premier_bus2"
+        android:textAlignment="center"
+        android:padding="6dp"
+        android:layout_below="@+id/samedi_dimanche"
+        android:layout_marginLeft="40dp"
+        android:textColor="#000"
+        />
+    <TextView
+        android:id="@+id/dernier_bus2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="* Dernier bus :"
+        android:textSize="17sp"
+        android:textAlignment="center"
+        android:padding="6dp"
+        android:layout_below="@+id/premier_bus2"
+        android:layout_marginLeft="40dp"
+        android:textColor="#000"
+        />
+    <TextView
+        android:id="@+id/dernier_temps2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="20:00"
+        android:textSize="17sp"
+        android:layout_toEndOf="@id/dernier_bus2"
+        android:textAlignment="center"
+        android:padding="6dp"
+        android:layout_below="@+id/premier_bus2"
+        android:layout_marginLeft="40dp"
+        android:textColor="#000"
+        />
+
+    <TextView
+        android:id="@+id/frequence2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="* Fréquence :"
+        android:textSize="17sp"
+        android:textAlignment="center"
+        android:padding="6dp"
+        android:layout_below="@+id/dernier_bus2"
+        android:layout_marginLeft="40dp"
+        android:textColor="#000"
+        />
+    <TextView
+        android:id="@+id/frequence_temps2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="45 min"
+        android:textSize="17sp"
+        android:layout_toEndOf="@id/dernier_bus2"
+        android:textAlignment="center"
+        android:padding="6dp"
+        android:layout_below="@+id/dernier_temps2"
+        android:layout_marginLeft="40dp"
+        android:textColor="#000"
+        />
+
+
+</RelativeLayout>

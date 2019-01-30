@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".hopital">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/hop" />
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Les Hôpitaux et cliniques"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="80dp"
+        android:textColor="#000" />
+    <TextView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/hopital_icon"
+        android:layout_marginTop="120dp" />
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:text=" Centre Hospitalier Régional Beni Mellal"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="130dp"
+        android:textColor="#000" />
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:text="Boulevard Chohadae: Ligne 01/10"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="160dp"
+        android:textColor="#686464"/>
+    <TextView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/hopital_icon"
+        android:layout_marginTop="200dp" />
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:text="Clinique Multidisciplinaire Jabrane"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="210dp"
+        android:textColor="#000" />
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:text=" Boulevard Alkodss: Ligne 01/08/10/24"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="240dp"
+        android:textColor="#686464"/>
+
+    <TextView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/hopital_icon"
+        android:layout_marginTop="280dp" />
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:text="Clinique Atlas"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="290dp"
+        android:textColor="#000" />
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:text=" Boulevard Hassan II: Ligne 01/10"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="320dp"
+        android:textColor="#686464"/>
+    <TextView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/hopital_icon"
+        android:layout_marginTop="360dp" />
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:text=" Clinique annor"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="370dp"
+        android:textColor="#000" />
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:text=" Riad Assalam: Ligne 01"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="400dp"
+        android:textColor="#686464"/>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".banque">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/banques" />
+    <TextView
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="Les banques"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="80dp"
+        android:textColor="#000" />
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/banque_icon"
+        android:layout_marginTop="120dp" />
+
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:text="Banque Al Maghrib"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="125dp"
+        android:textColor="#000" />
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:text=" Boulevard Mohammed V: Ligne 01"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="145dp"
+        android:textColor="#686464"/>
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/banque_icon"
+        android:layout_marginTop="180dp" />
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:text="Attijariwafa Bank"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="185dp"
+        android:textColor="#000" />
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:text=" Boulevard Mohammed V: Ligne 01"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="205dp"
+        android:textColor="#686464"/>
+
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/banque_icon"
+        android:layout_marginTop="245dp" />
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:text="Crédit Agricole"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="245dp"
+        android:textColor="#000" />
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:text=" Boulevard Mohammed V: Ligne 01"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="265dp"
+        android:textColor="#686464"/>
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/banque_icon"
+        android:layout_marginTop="310dp" />
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:text="Banque Populaire"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="315dp"
+        android:textColor="#000" />
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:text=" Boulevard Mohammed V: Ligne 01"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="335dp"
+        android:textColor="#686464"/>
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/banque_icon"
+        android:layout_marginTop="375dp" />
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:text="CIH Bank"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="380dp"
+        android:textColor="#000" />
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:text=" Boulevard Mohammed V: Ligne 01"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="400dp"
+        android:textColor="#686464"/>
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/banque_icon"
+        android:layout_marginTop="440dp" />
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:text="BMCE Bank"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="445dp"
+        android:textColor="#000" />
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:text=" Boulevard Mohammed V: Ligne 01"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="465dp"
+        android:textColor="#686464"/>
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/banque_icon"
+        android:layout_marginTop="500dp" />
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:text="Al Barid Bank"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="505dp"
+        android:textColor="#000" />
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:text=" Boulevard Mohammed V: Ligne 01"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="525dp"
+        android:textColor="#686464"/>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ReclamationsActivity">
+
+    <EditText
+        android:id="@+id/set_tel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="ex: 0600000000"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+        android:inputType="textPersonName"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginTop="50dp"
+        android:padding="6dp"
+        />
+    <TextView
+        android:id="@+id/tel_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="N° Tel : "
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:padding="6dp"/>
+
+
+    <EditText
+        android:id="@+id/set_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="ex: 23/12/2018"
+        android:textAlignment="center"
+        android:layout_below="@id/tel_text"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:padding="6dp"
+        />
+    <TextView
+        android:id="@+id/date_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_below="@id/tel_text"
+        android:text="Date : "
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:padding="6dp"/>
+
+
+    <EditText
+        android:id="@+id/set_ligne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/date_text"
+        android:layout_centerInParent="true"
+        android:textAlignment="center"
+        android:hint="ex: 01"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginTop="10dp"
+        android:padding="6dp"
+        />
+    <TextView
+        android:id="@+id/ligne_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Ligne  : "
+        android:layout_below="@+id/date_text"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:padding="6dp"/>
+
+    <TextView
+        android:id="@+id/anomalie_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Anomalie : "
+        android:layout_below="@id/ligne_text"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:padding="6dp"/>
+
+    <android.support.v7.widget.AppCompatSpinner
+        android:id="@+id/anomalie_spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="5dp"
+        android:padding="10dp"
+        android:layout_below="@+id/anomalie_text"
+        android:entries="@array/Anomalie" />
+
+    <TextView
+        android:id="@+id/description_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Description  : "
+        android:layout_below="@+id/anomalie_spinner"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:padding="6dp"/>
+
+    <EditText
+        android:id="@+id/set_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/description_text"
+        android:layout_centerInParent="true"
+        android:textAlignment="center"
+        android:hint="Décrivez votre réclamation..."
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:layout_marginEnd="5dp"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        />
+
+
+    <Button
+        android:id="@+id/envoyer_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Envoyer"
+        android:background="#0955A8"
+        android:layout_below="@id/set_description"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:layout_marginStart="90dp"
+        android:layout_marginEnd="90dp"
+        android:layout_marginTop="30dp"
+        android:padding="10dp"
+        android:textAllCaps="false"/>
+
+
+
+
+</RelativeLayout>

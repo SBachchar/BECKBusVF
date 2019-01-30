@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".EtablissementActivity">
+
+    <Button
+        android:id="@+id/faculte"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:gravity="center"
+        android:text="Faculté"
+        android:textAlignment="center"
+        android:textColor="#faf8f8"
+        android:textSize="30dp"
+        android:textStyle="italic"
+        android:textAllCaps="false"
+        android:background="@drawable/facult"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="8dp" />
+    <Button
+        android:id="@+id/ofppt"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:textAlignment="center"
+        android:text="OFPPT"
+        android:textSize="30dp"
+        android:textColor="#faf8f8"
+        android:textStyle="italic"
+        android:gravity="center"
+        android:textAllCaps="false"
+        android:background="@drawable/ofppt" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="8dp" />
+    <Button
+        android:id="@+id/hopital"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:textAlignment="center"
+        android:text="hopital"
+        android:textSize="30dp"
+        android:textColor="#faf8f8"
+        android:textStyle="italic"
+        android:gravity="center"
+        android:textAllCaps="false"
+        android:background="@drawable/hop" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="8dp" />
+    <Button
+        android:id="@+id/province"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:textAlignment="center"
+        android:text="province"
+        android:textSize="30dp"
+        android:textColor="#faf8f8"
+        android:textStyle="italic"
+        android:textAllCaps="false"
+        android:gravity="center"
+        android:background="@drawable/province" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="8dp" />
+    <Button
+        android:id="@+id/banque"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:textAlignment="center"
+        android:text="banque"
+        android:textSize="30dp"
+        android:textColor="#faf8f8"
+        android:textStyle="italic"
+        android:gravity="center"
+        android:textAllCaps="false"
+        android:background="@drawable/banques" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="8dp" />
+    <Button
+        android:id="@+id/gare"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:textAlignment="center"
+        android:text="gare routière"
+        android:textSize="30dp"
+        android:textColor="#faf8f8"
+        android:textStyle="italic"
+        android:gravity="center"
+        android:textAllCaps="false"
+        android:background="@drawable/gare" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="8dp" />
+
+
+
+
+
+</LinearLayout>

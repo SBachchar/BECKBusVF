@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/lignes"
+            android:icon="@drawable/bus1"
+            android:title="Lignes" />
+        <item
+            android:id="@+id/tarifs"
+            android:icon="@drawable/money"
+            android:title="Tarifs" />
+        <item
+            android:id="@+id/horaire"
+            android:icon="@drawable/horaire"
+            android:title="Horaires" />
+        <item
+            android:id="@+id/abonnements"
+            android:icon="@drawable/abonnement"
+            android:title="Abonnements" />
+        <item
+            android:id="@+id/info"
+            android:icon="@drawable/info"
+            android:title="Informations" />
+        <item
+            android:id="@+id/etab_pub"
+            android:icon="@drawable/etablissement"
+            android:title="Etablissements publiques" />
+        <item
+            android:id="@+id/reserve"
+            android:icon="@drawable/reserve"
+            android:title="Réservation de bus" />
+        <item
+            android:id="@+id/reclamation"
+            android:icon="@drawable/reclamation"
+            android:title="Réclamations" />
+    </group>
+
+</menu>
